@@ -391,12 +391,12 @@ public class MainActivity extends AppCompatActivity implements RecycleViewCode.I
         //options menu, so here it is ok to have a final int assigned as id
         final int ID_LOCAL = item.getItemId();
         View view = findViewById(ID_LOCAL);
-        view.setOnLongClickListener(new View.OnLongClickListener() {
-            public boolean onLongClick(View v) {
-                Toast.makeText(v.getContext(), getResources().getString(R.string.settings_area), Toast.LENGTH_SHORT).show();
-                return true;
-            }
-        });
+//        view.setOnLongClickListener(new View.OnLongClickListener() {
+//            public boolean onLongClick(View v) {
+//                Toast.makeText(v.getContext(), getResources().getString(R.string.settings_area), Toast.LENGTH_SHORT).show();
+//                return true;
+//            }
+//        });
 
         if (ID_LOCAL == R.id.options) {
             final Intent INTENT = new Intent(MainActivity.this, OptionsActivity.class);

@@ -5,7 +5,7 @@ android {
     buildToolsVersion "29.0.2"
     defaultConfig {
         applicationId "com.example.javaalgorithmsrecipes"
-        minSdkVersion 21
+        minSdkVersion 23
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -43,6 +43,10 @@ dependencies {
 
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
     implementation 'Codeview-1.0.0:webviewcode:1.0.0'
+
+    //material
+    implementation 'com.google.android.material:material:1.0.0'
+
 
     //data binding
     implementation 'com.jakewharton:butterknife:10.0.0'
