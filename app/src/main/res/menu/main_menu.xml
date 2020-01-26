@@ -15,7 +15,7 @@
         android:id="@+id/options"
         android:orderInCategory="2"
         android:icon="@drawable/ic_settings_32dp"
-        android:title="@string/options"
+        android:title="@string/about"
         app:showAsAction="never"/>
 
 </menu>

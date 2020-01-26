@@ -254,7 +254,7 @@ public class MainActivity extends AppCompatActivity implements RecycleViewCode.I
         codeObjects.add(codeObject20);
         CodeObject codeObject21 = new CodeObject("Normalize text", "Java language", R.drawable.ic_java);
         codeObjects.add(codeObject21);
-        CodeObject codeObject22 = new CodeObject("OnClickListener examples", "Android library", R.drawable.ic_robot);
+        CodeObject codeObject22 = new CodeObject("OnClickListener recipes", "Android library", R.drawable.ic_robot);
         codeObjects.add(codeObject22);
         adapter.notifyDataSetChanged();
     }
